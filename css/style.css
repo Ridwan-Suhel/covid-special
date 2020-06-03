@@ -60,7 +60,7 @@ h3{
 	border: 1px solid #000;
 }
 .home-area .dev-pro a:hover img{
-	border: 1px solid #ff8d79;;
+	border: 1px solid #ff8d79;
 }
 .home-area .dev-pro a span{
 	color: #333;
@@ -69,7 +69,7 @@ h3{
 	font-family: 'Raleway', sans-serif;
 }
 .home-area .dev-pro a span:hover{
-	color: #ff8d79;;
+	color: #ff8d79;
 	text-decoration: underline;
 }
 /*home area home-content style start*/
