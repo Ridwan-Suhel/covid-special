@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600;700&family=Roboto:wght@300;400;500&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3{
+	font-family: 'Raleway', sans-serif;
+}
+.home-area{
+}
+
+/*logo style start*/
+.home-area .logo{
+	position: absolute;
+	top: 60px;
+	left: 125px;
+	
+}
+.home-area .logo img{
+	width: 60px;
+}
+.home-area .logo span{
+	display: inline-block;
+	font-size: 1.6rem;
+	font-weight: 600;
+	font-family: 'Raleway', sans-serif;
+	color: #000;
+}
+.home-area .logo span:last-child{
+	color: tomato;
+	display: block;
+	position: absolute;
+	top: 32px;
+	left: 63px;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+}
+/*logo style end*/
+/*dev profile style start*/
+.home-area .dev-pro{
+	position: absolute;
+	top: 73px;
+	right: 125px;
+}
+.home-area .dev-pro a{
+	text-decoration: none;
+}
+
+.home-area .dev-pro a img{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	border-radius: 100%;
+	border: 1px solid #000;
+}
+.home-area .dev-pro a:hover img{
+	border: 1px solid #60D8EF;
+}
+.home-area .dev-pro a span{
+	color: #333;
+	margin-left: 12px;
+	font-size: 1.1rem;
+	font-family: 'Raleway', sans-serif;
+}
+.home-area .dev-pro a span:hover{
+	color: #60D8EF;
+	text-decoration: underline;
+}
+/*home area home-content style start*/
+.home-area .home-content{
+	margin-top: 100px;
+}
+.home-area .home-content h1{
+	font-size: 3rem;
+}
+.home-area .home-content h3{
+	display: inline;
+}
+.home-area .home-content p{
+	display: inline;
+	font-size: 1.2rem;
+
+}
+.home-area .home-content .bottom-text{
+	text-align: center;
+}
+.home-area .home-content .bottom-text a{
+	display: inline-block;
+	background: tomato;
+	padding: 10px 20px;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 1.2rem;
+	margin-top: 50px;
+	border: 2px solid #bd442e;
+	font-weight: 300;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+/*home area home-content style end*/
+
+/*virus icon style start*/
+.home-area .virus-icon-01{
+	width: 170px;
+	position: absolute;
+	top: 61%;
+	left: 125px;
+}
+.home-area .virus-icon-01 img{
+	width: 100%;
+	opacity: 0.3;
+}
+
+.home-area .virus-icon-02{
+	width: 130px;
+	position: absolute;
+	top: 25%;
+	right: 180px;
+}
+.home-area .virus-icon-02 img{
+	width: 100%;
+	opacity: 0.2;
+}
+.home-area .down-arrow{
+	text-align: center;
+	margin-top: 30px;
+}
+.home-area .down-arrow i{
+	font-size: 2.2rem;
+	color: tomato;
+	cursor: pointer;
+	animation: down ease-in-out 1.2s infinite;
+}
+@keyframes down{
+	0%{
+		transform: translateY(0px);
+	}
+	100%{
+		transform: translateY(20px);
+	}
+}
+.home-area .down-arrow i:hover{
+	animation: none;
+}
+/*virus icon style end*/
+
+/*data section start*/
+.data{
+	background: #E9EBEC;
+}
+.data .data-content h1{
+	color: #000;
+	padding: 0 15%;
+}
+
+.data .data-area .cases{}
+.data .data-area .cases .bd-part,
+.data .data-area .cases .world-part{
+	margin-top: 20px;
+}
+.data .data-area .cases .bd-part .bd-wrapper,
+.data .data-area .cases .world-part .world-wrapper{
+	background: #fff;
+	padding: 20px 0px;
+	border-radius: 5px;
+	border-top: 3px solid tomato;
+}
+.data .data-area .cases .bd-part .top-title,
+.data .data-area .cases .world-part .top-title{
+	padding-bottom: 7px;
+	border-bottom: 3px solid tomato;
+	text-align: left;
+	position: relative;
+}
+
+.data .data-area .cases .bd-part a,
+.data .data-area .cases .world-part a{
+	text-decoration: none;
+	margin-left: 1.4rem;
+}
+.data .data-area .cases .bd-part a img,
+.data .data-area .cases .world-part a img{
+	width: 45px;
+	display: inline-block;
+}
+.data .data-area .cases .bd-part .top-title span,
+.data .data-area .cases .world-part .top-title span{
+	position: absolute;
+	top: -5px;
+	right: 20px;
+}
+.data .data-area .cases .bd-part .top-title span img,
+.data .data-area .cases .world-part .top-title span img{
+	width: 35px;
+	display: inline-block;
+}
+.data .data-area .cases .bd-part h3,
+.data .data-area .cases .world-part h3{
+	display: inline-block;
+	margin-bottom: 0;
+	margin-left: 10px;
+}
+.data .data-area .cases .bd-part .total{}
+.data .data-area .cases .bd-part p,
+.data .data-area .cases .world-part p{
+	margin-bottom: 0px;
+	font-size: 1rem;
+	font-weight: 200;
+}
+.data .data-area .cases .bd-part span,
+.data .data-area .cases .world-part span{
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.2rem;
+}
+.data .data-area .cases .bd-part .death,
+.data .data-area .cases .bd-part .new-deaths,
+.data .data-area .cases .world-part .death,
+.data .data-area .cases .world-part .new-deaths{
+	margin-top: 20px;
+}
+.data .data-area .hint-text{
+	margin-top: 20px;
+}
+.data .data-area .hint-text p{}
+.data .data-area .hint-text a{}
+
+/*advice-section start from here*/
+.advice{
+	background: #fff;
+}
+.advice .ad-title{
+	margin-bottom: 3rem;
+}
+.advice .ad-title h1{
+	text-transform: uppercase;
+
+}
+.advice .ad-box{
+	text-align: center;
+	/*border: 2px solid #333;*/
+	border-radius: 5px;
+	padding: 15px 10px;
+	box-shadow: inset 3px 3px 2px #e8e8e8,
+	 3px 3px 2px #e8e8e8;
+	cursor: pointer;
+	transition: .3s;
+}
+.advice .ad-box .icon{  
+	width: 80px;
+	margin: auto;
+	margin-bottom: 1rem;
+}
+.advice .ad-box .icon img{
+	width: 100%;
+
+}
+.advice .ad-box p{ 
+	font-weight: 500;
+	font-size: 1.3rem;
+	margin-bottom: 0;
+}
+.advice .ad-box:hover{
+	box-shadow: inset 1px 1px 1px #e8e8e8,
+	 1px 1px 1px #e8e8e8;
+}
+
+.advice a .ad-box p{
+	color: #333;
+}
+
+.advice a:hover{
+	text-decoration: none;
+}
+
+#fp-nav ul li a span{
+	background: #333;
+}
+#fp-nav ul li a.active span{
+	background: #333;
+}
+#fp-nav.fp-show-active a.active+.fp-tooltip{
+	color: #333;
+}
+#fp-nav ul li:hover .fp-tooltip, #fp-nav.fp-show-active a.active+.fp-tooltip {
+    color: #007bff !important;
+}

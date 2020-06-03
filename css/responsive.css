@@ -1,0 +1,249 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.home-area .logo {
+    left: 3%;
+}
+.home-area .dev-pro {
+    right: 3%;
+}
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.home-area .logo {
+    left: 3%;
+}
+.home-area .dev-pro {
+    right: 3%;
+}
+.home-area .virus-icon-02 {
+    top: 20%;
+    right: 10%;
+}
+.home-area .virus-icon-01 {
+    top: 55%;
+    left: 5%;
+}
+.home-area .home-content h1 {
+    font-size: 2.2rem;
+}
+.home-area .home-content h3 {
+    font-size: 1.4rem;
+}
+.home-area .home-content p {
+    font-size: 1rem;
+}
+.home-area .home-content .bottom-text a {
+    font-size: 1rem;
+    margin-top: 40px;
+}
+.home-area .down-arrow {
+    margin-top: 15px;
+}
+.data .data-content h1 {
+    padding: 0 0%;
+    font-size: 1.8rem;
+}
+.advice .ad-title h1 {
+    font-size: 1.8rem;
+}
+.home-area .home-content {
+    margin-top: 0px;
+}
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.home-area .logo {
+    left: 3%;
+    top: 30px;
+}
+.home-area .dev-pro {
+    right: 3%;
+    top: 30px;
+}
+ .home-area .logo img {
+    width: 30px;
+    margin-top: 5px;
+}
+.home-area .logo span {
+    font-size: 1rem;
+}
+.home-area .logo span:last-child {
+    top: 20px;
+    left: 32px;
+}
+.home-area .dev-pro a img {
+    width: 35px;
+    height: 35px;
+}
+.home-area .dev-pro a span {
+    margin-left: 2px;
+    font-size: 14px;
+}
+.home-area .home-content h1 {
+    font-size: 1.6rem;
+}
+.home-area .home-content h3 {
+    font-size: 1.3rem;
+}
+.home-area .home-content p {
+    font-size: 15px;
+    font-weight: 300;
+}
+.home-area .home-content .bottom-text a {
+    font-size: 15px;
+    margin-top: 30px;
+}
+.home-area .down-arrow {
+    margin-top: 10px;
+}
+.home-area .virus-icon-02 {
+    top: 18%;
+    right: 5%;
+}
+.home-area .virus-icon-01 {
+    top: 55%;
+    left: 5%;
+}
+.home-area .home-content {
+    margin-top: 0px;
+}
+
+.data .data-content h1 {
+    padding: 0 0%;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+.data .data-area .cases .bd-part h3, .data .data-area .cases .world-part h3 {
+    font-size: 20px;
+}
+.data .data-area .cases .bd-part a img, .data .data-area .cases .world-part a img {
+    width: 35px;
+}
+.data .data-area .cases .bd-part .top-title span img, .data .data-area .cases .world-part .top-title span img {
+    width: 30px;
+}
+.data .data-area .cases .bd-part .top-title span, .data .data-area .cases .world-part .top-title span {
+    top: -12px;
+}
+.data .data-area .cases .bd-part .death, .data .data-area .cases .bd-part .new-deaths, .data .data-area .cases .world-part .death, .data .data-area .cases .world-part .new-deaths {
+    margin-top: 0px;
+}
+.advice .ad-title h1 {
+    font-size: 1.3rem;
+}
+.advice .ad-box .icon {
+    width: 50px;
+}
+.advice .ad-box p {
+    font-size: 1rem;
+}
+.advice .ad-title {
+    margin-bottom: 1rem;
+}
+.data .data-area .cases .bd-part span, .data .data-area .cases .world-part span {
+    font-size: 1.3rem;
+}
+.data .data-area .hint-text p {
+	margin-bottom: 0;
+}
+.data .data-area .hint-text {
+    margin-top: 7px;
+}
+.home-area .down-arrow {
+    z-index: 999;
+}
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+ 
+}
+@media (max-width: 576px) {
+	.data .data-area .cases .bd-part .col-sm-6, .data .data-area .cases .world-part .col-sm-6{
+    width: 50%;
+}
+.advice .col-sm-6{
+	width: 50%;
+}
+}
+
+
+
+@media (max-width: 440px) {
+.advice .ad-box .icon {
+    width: 30px;
+}
+.advice .ad-box p {
+    font-size: 14px;
+    font-weight: 200;
+}
+.data .data-area .cases .bd-part .top-title span, .data .data-area .cases .world-part .top-title span {
+    top: 0px;
+}
+}
+@media (max-width: 371px) {
+.home-area .logo img {
+    width: 25px;
+}
+.home-area .logo span {
+    font-size: 15px;
+}
+.home-area .logo span:last-child {
+    left: 27px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+}
+.home-area .dev-pro a span {
+    font-size: 13px;
+}
+.home-area .home-content .sm-none {
+    display: none;
+}
+.home-area .home-content h1 {
+    font-size: 1.3rem;
+}
+.home-area .home-content h3 {
+    font-size: 1.1rem;
+}
+.home-area .home-content .bottom-text a {
+    font-size: 13px;
+    margin-top: 15px;
+    padding: 7px 11px;
+}
+.home-area .down-arrow {
+    margin-top: 0px;
+}
+.data .data-content h1 {
+    font-size: 1rem;
+}
+
+.data .data-area .cases .bd-part h3, .data .data-area .cases .world-part h3 {
+    font-size: 16px;
+}
+.data .data-area .cases .bd-part p, .data .data-area .cases .world-part p {
+    font-size: 14px;
+}
+.data .data-area .hint-text p {
+    font-size: 14px;
+}
+.advice .col-sm-6 {
+    width: 50%;
+    padding: 5px;
+    margin: 0;
+}
+.advice .ad-box{
+	height: 120px;
+}
+}
