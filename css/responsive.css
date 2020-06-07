@@ -1,10 +1,3 @@
-/* Normal desktop :1200px. */
-@media (min-width: 1200px) and (max-width: 1500px) {
-
-
-}
-
-
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
 .home-area .logo {
@@ -98,7 +91,7 @@
     font-size: 1.3rem;
 }
 .home-area .home-content p {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 300;
 }
 .home-area .home-content .bottom-text a {
@@ -143,6 +136,9 @@
 .advice .ad-title h1 {
     font-size: 1.3rem;
 }
+.advice .ad-box{
+     box-shadow: inset 1px 1px 2px #e8e8e8, 1px 0px 2px #e8e8e8;
+}
 .advice .ad-box .icon {
     width: 50px;
 }
@@ -167,18 +163,15 @@
 }
  
 /* Large Mobile :480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
- 
-}
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
 @media (max-width: 576px) {
-	.data .data-area .cases .bd-part .col-sm-6, .data .data-area .cases .world-part .col-sm-6{
+.data .data-area .cases .bd-part .col-sm-6, .data .data-area .cases .world-part .col-sm-6{
     width: 50%;
 }
 .advice .col-sm-6{
 	width: 50%;
 }
 }
-
 
 
 @media (max-width: 440px) {
